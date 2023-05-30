@@ -1,0 +1,56 @@
+.navbar { 
+list-style-type: none;
+background-color: black;
+overflow: hidden;
+    margin: 0%;
+    padding: 0%;
+
+
+
+}
+
+li.navbar-item a {
+    display: block;
+    color:white;
+    text-decoration: underline;
+    float: left;
+    padding: 14px 16px;
+}
+
+.bas {
+
+    list-style-type: none;
+background-color: black;
+overflow: hidden;
+    margin: 0%;
+    padding: 0%;
+
+}
+li.bas-bas {
+    display: block;
+    color:white;
+    text-decoration: underline;
+    float: left;
+    padding: 14px 16px;
+
+}
+ 
+.image{
+    width: 14%;
+    height: 15%;
+}
+
+.image2{
+    width: 50%;
+    height: 40;
+
+
+}
+
+
+
+.text{
+
+}
+
+
