@@ -40,10 +40,17 @@ li.bas-bas {
     height: 15%;
 }
 
+.container{
+position: relative;
+height: 40vh;
+
+}
+
 .image2{
+    
     width: 50%;
     height: 40;
-
+    
 
 }
 
