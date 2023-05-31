@@ -1,3 +1,5 @@
+
+
 .navbar { 
 list-style-type: none;
 background-color: black;
@@ -40,24 +42,93 @@ li.bas-bas {
     height: 15%;
 }
 
-.container{
-position: relative;
-height: 40vh;
 
-}
 
 .image2{
-    
-    width: 50%;
-    height: 40;
-    
+  /* position:absolute;
+top:50%;
 
+left:50%;
+transform: translate (-50%,-50%);
+max-height: 100%;screen
+max-width: 100%; */
+width:100%;
+margin: auto;
+
+}
+
+section{
+    display:flex;
+}
+
+article{
+    width: 70%;
+}
+
+aside{
+    width: 30%;
+    background-color: grey;
+}
+
+
+@media screen and (max-width: 768px) {
+      
+* { color: black;
+
+}
+
+p{
+    font-family: italic;
+    font-size: 20px;
+}
+h2{
+    font-size: 2rem;
+}
+.navbar{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.bas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    display:flex
+}
+article{
+
+    width: 70%;
+}
+aside{
+    display: none;
+}
 }
 
 
 
-.text{
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+
+
 
 
